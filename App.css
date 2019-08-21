@@ -1,0 +1,153 @@
+body {
+  background-image: linear-gradient(to right, black , #434343);
+  font-family: 'Vollkorn', serif;
+}
+
+img {
+  width: 14em;
+  height: 21em;
+  display: block;
+}
+
+#movies {
+  width: 1020px;
+  margin: 1.3em auto 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr {
+  border: 2px solid whitesmoke;
+  margin-top: 50px;
+}
+
+figure {
+  margin: .90em;
+  box-shadow: 0 0 30px gray;  
+  transition: transform 1s ease-out;
+}
+
+figure:hover {
+  transform: scale(1.1)
+}
+
+figcaption {
+  padding: 1em .40em 0;
+  line-height: 1;
+
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+p {
+  font-weight: bold;
+}
+
+.rate {
+  padding-left: 23px;
+}
+
+.fa-heart {
+  position: absolute;
+  margin-right: .30em;
+  color: red;
+  bottom: 13px;
+}
+
+.genre {
+  font-size: 0.90em;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+#search-input {
+  display: inline-block;
+  margin: 1.5em 0 0 2em;
+  position: relative;
+  padding-left: 50px;
+}
+
+.fa-search {
+  position: absolute;
+  right: 10px;
+  bottom:10px;
+  color: rgb(26, 27, 27);
+}
+
+#search-input::placeholder {
+  color: black;
+  letter-spacing: 1px;
+}
+
+input[type="search"] {
+  letter-spacing: 1px;
+  border: 2px solid #FFF;
+  border-bottom: solid 2px lightgray;
+  outline: none;
+  color: gray;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+input[type="search"]:focus {
+  border-bottom-color: #FFF;
+  border-bottom-width: 3px;
+}
+.drop-down {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+  margin-left: 710px;
+  border-radius: 25px;
+  position: absolute;
+  top: 2px;
+}
+
+h1 {
+  text-align: center;
+  color: white; 
+  font: bold 52px Helvetica, Arial, Sans-Serif;
+  text-shadow: 1px 1px rgb(119, 189, 246), 
+               2px 2px rgb(119, 189, 246), 
+               3px 3px rgb(119, 189, 246);
+}
+
+h1:hover {
+  position: relative; 
+  top: -3px; 
+  left: -3px; 
+  text-shadow: 1px 1px #0D89B8, 
+               2px 2px #0D89B8, 
+               3px 3px #0D89B8, 
+               4px 4px #0D89B8, 
+               5px 5px #0D89B8, 
+               6px 6px #0D89B8;
+}
+
+.dropDownLabel {
+  color:white;
+  position: absolute;
+  left: 870px;
+  top: 103px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.searchLabel {
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+  padding-right: 6%;
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+
+
